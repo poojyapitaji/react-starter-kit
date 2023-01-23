@@ -11,6 +11,6 @@ module.exports = {
   },
   plugins: [
     new ReactRefreshWebpackPlugin(),
-    new Dotenv({ path: path.resolve(__dirname, '..', './.env'), allowEmptyValues: true }),
+    new Dotenv({ path: path.resolve(__dirname, '..', './.env.dev'), allowEmptyValues: true }),
   ],
 }
